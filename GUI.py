@@ -55,7 +55,7 @@ input_video_btn = Button(master=Convert_Compress_Window, text="Browse", bg='#99a
 
 # output
 output_frame = Frame(Convert_Compress_Window)
-output_label = Label(output_frame, text="Output file:", justify=LEFT, bg='#2c2f33', fg="#d3d3d3")
+output_label = Label(output_frame, text="Output file (include extension):", justify=LEFT, bg='#2c2f33', fg="#d3d3d3")
 output_video_btn = Button(master=Convert_Compress_Window, text="Browse", bg='#99aab5', command=save_as)
 ffmpeg_check_label = Label(Convert_Compress_Window, bg='#2c2f33')
 
@@ -83,6 +83,6 @@ slider.grid(row=4, column=0, sticky="w")
 convert_btn.grid(row=5, column=1)
 quality_description.grid(row=5, column=0, sticky='w')
 
-
+# consider subprocecss.poll function, look it up. check if ffmpeg is still running or not.
 # goes at end because the docs said so
 Convert_Compress_Window.mainloop()
