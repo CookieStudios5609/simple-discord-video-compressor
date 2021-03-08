@@ -1,6 +1,8 @@
 # Simple Video Compressor for Discord Embeds
-Have non-Nitro users who both hate the commandline and hate installing software? If so, this is the perfect tool for you! This GUI for FFMPEG keeps things simple and compact, and is set to always output in a format Discord will embed.
+Have non-Nitro users who both hate the commandline and hate installing software? If so, this is the perfect tool for you!* This GUI for FFMPEG keeps things simple and compact, and is set to always output in a format Discord will embed.
 
+
+*Note the creator of this repo is not responsible if your Discord friends, who are already mentioned to hate installing software, are also unwilling to install Python.
 ---
 ## Getting Started
 This GUI requires very little setup. 
